@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal academic homepage of Ziyu (Hazel) Zhang." />
+  <title>Ziyu (Hazel) Zhang</title>
+  <style>
+    :root {
+      --bg: #fbfaf7;
+      --card: #ffffff;
+      --text: #20242a;
+      --muted: #626a73;
+      --accent: #8b1e1e;
+      --line: #e6e0d8;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.65;
+    }
+
+    .wrap {
+      width: min(860px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 72px 0 56px;
+    }
+
+    header {
+      margin-bottom: 42px;
+    }
+
+    .eyebrow {
+      color: var(--accent);
+      font-size: 0.86rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.2rem, 6vw, 4.2rem);
+      letter-spacing: -0.045em;
+      line-height: 1.05;
+    }
+
+    .subtitle {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 1.08rem;
+      max-width: 700px;
+    }
+
+    .contact {
+      margin-top: 22px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 18px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact a {
+      font-weight: 600;
+    }
+
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 28px 30px;
+      margin: 18px 0;
+      box-shadow: 0 8px 28px rgba(34, 30, 24, 0.035);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.28rem;
+      letter-spacing: -0.02em;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    ul {
+      margin: 10px 0 0;
+      padding-left: 20px;
+    }
+
+    footer {
+      margin-top: 36px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .wrap { padding-top: 44px; }
+      section { padding: 23px 22px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="eyebrow">Personal Academic Homepage</div>
+      <h1>Ziyu (Hazel) Zhang</h1>
+      <p class="subtitle">
+        Data Science undergraduate at The Chinese University of Hong Kong, Shenzhen,
+        interested in artificial intelligence, speech and language technology,
+        human-centered evaluation, and AI systems.
+      </p>
+      <div class="contact">
+        <a href="mailto:122090786@link.cuhk.edu.cn">122090786@link.cuhk.edu.cn</a>
+        <a href="https://github.com/hazezhang" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>
+        I am an undergraduate student in Data Science and Big Data Technology at
+        The Chinese University of Hong Kong, Shenzhen. My current work focuses on
+        language and speech evaluation, simultaneous interpretation, and practical
+        applications of AI agents.
+      </p>
+    </section>
+
+    <section>
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Natural language processing and speech technology</li>
+        <li>Human-centered evaluation of AI systems</li>
+        <li>Simultaneous interpretation and latency-aware evaluation</li>
+        <li>AI agents, reusable skills, and applied machine learning</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Selected Work</h2>
+      <p>
+        First-author paper accepted to INTERSPEECH 2026 on rubric-aligned evaluation
+        of human simultaneous interpretation.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        Email:
+        <a href="mailto:122090786@link.cuhk.edu.cn">122090786@link.cuhk.edu.cn</a>
+      </p>
+    </section>
+
+    <footer>
+      © 2026 Ziyu (Hazel) Zhang
+    </footer>
+  </main>
+</body>
+</html>
