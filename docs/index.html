@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ziyu (Hazel) Zhang builds human-centered AI evaluation systems, language and speech technologies, and end-to-end AI products." />
+    <meta name="theme-color" content="#101d2f" />
+    <title>Ziyu (Hazel) Zhang | Human-centered AI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@1,6..72,500;1,6..72,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Ziyu Zhang — back to top">HZ<span>.</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#work">Work</a><a href="#research">Research</a><a href="#experience">Experience</a><a href="#about">About</a>
+      </nav>
+      <a class="header-email" href="mailto:122090786@link.cuhk.edu.cn">Email <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Shenzhen · Open to conversations</p>
+          <h1 id="hero-title">I build AI systems that can be <em>evaluated, understood,</em> and used.</h1>
+          <p class="hero-summary">I’m Ziyu (Hazel) Zhang, a Data Science undergraduate at CUHK-Shenzhen. My work moves between human-centered AI evaluation, language and speech technologies, and end-to-end AI products.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="https://github.com/hazezhang" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="signal-card" aria-label="A visual representing speech signals becoming structured human judgments">
+          <div class="signal-topline"><span>Human signal</span><span>Structured judgment</span></div>
+          <div class="wave-field" aria-hidden="true">
+            <svg viewBox="0 0 720 280" role="img">
+              <path class="wave wave-one" d="M0 143 C40 143 45 71 82 71 C122 71 124 213 164 213 C205 213 208 102 247 102 C285 102 292 184 329 184 C372 184 372 50 415 50 C456 50 460 231 501 231 C542 231 545 119 586 119 C627 119 637 160 675 160 C696 160 707 142 720 142" />
+              <path class="wave wave-two" d="M0 143 C50 143 47 118 88 118 C129 118 130 169 171 169 C215 169 213 130 254 130 C296 130 296 157 338 157 C380 157 381 93 422 93 C464 93 461 193 505 193 C546 193 548 137 590 137 C635 137 643 149 680 149 C700 149 710 143 720 143" />
+              <line x1="0" y1="143" x2="720" y2="143" />
+            </svg>
+          </div>
+          <div class="rubric-row">
+            <div><span>LQ</span><strong>Language quality</strong></div>
+            <div><span>EXP</span><strong>Expression</strong></div>
+            <div><span>LAT</span><strong>Perceived latency</strong></div>
+          </div>
+          <p class="signal-note">Turning ambiguous human experience into something measurable—without flattening what matters.</p>
+        </div>
+      </section>
+
+      <section class="intro section-grid" id="about">
+        <p class="section-label">01 / Point of view</p>
+        <div class="section-content intro-content">
+          <h2>Research is most alive when it becomes something people can <em>see, question, and use.</em></h2>
+          <div class="intro-columns">
+            <p class="lead">I began in data science by being good at learning. I found my own direction when I started building systems around questions I genuinely cared about.</p>
+            <p>Today, I’m drawn to the space between a model and the person relying on it: how human judgments become data, how evaluation shapes behavior, and how research survives contact with a real interface, workflow, or decision.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="work" id="work">
+        <div class="section-heading">
+          <p class="section-label">02 / Selected work</p>
+          <h2>From questions<br />to working systems.</h2>
+          <p>Research, infrastructure, and creative experiments—connected by a preference for building the whole loop.</p>
+        </div>
+        <div class="project-list">
+          <article class="project project-featured">
+            <div class="project-number">01</div>
+            <div class="project-body">
+              <div class="project-meta"><span>Research</span><span>INTERSPEECH 2026 · First-author oral</span></div>
+              <h3>Rubric-aligned evaluation for human simultaneous interpreting</h3>
+              <p>I developed an evaluation approach that predicts language quality and expression from bilingual text while treating perceived latency as a distinct quality-and-timing problem. The work asks a practical question: can an automatic evaluator reflect the dimensions professional interpreters are actually judged on?</p>
+              <ul class="tag-list" aria-label="Project methods"><li>COMET-KIWI</li><li>LoRA</li><li>Multi-task learning</li><li>Human evaluation</li></ul>
+            </div>
+            <div class="project-mark" aria-hidden="true"><span>3</span><small>rubric<br />dimensions</small></div>
+          </article>
+          <article class="project">
+            <div class="project-number">02</div>
+            <div class="project-body">
+              <div class="project-meta"><span>Research system</span><span>Ongoing</span></div>
+              <h3>SimulForge — interpreting data and evaluation platform</h3>
+              <p>A web-based system that connects corpus collection, rubric scoring, model evaluation, and interpreter-facing feedback. It turns a model experiment into a workflow researchers and evaluators can inspect and use.</p>
+              <a class="project-link" href="https://github.com/hazezhang/simulForge" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="project-aside"><span>Collect</span><i></i><span>Evaluate</span><i></i><span>Explain</span></div>
+          </article>
+          <article class="project">
+            <div class="project-number">03</div>
+            <div class="project-body">
+              <div class="project-meta"><span>Applied AI</span><span>Evaluation infrastructure</span></div>
+              <h3>Making AI decisions testable in real energy systems</h3>
+              <p>I designed a replayable evaluation layer for home-energy strategies, translating failures such as oscillating decisions, tariff mismatch, and time-slot errors into explicit metrics, attribution rules, and automated tests.</p>
+              <ul class="tag-list" aria-label="Project focus"><li>Evaluation</li><li>Attribution</li><li>Decision systems</li><li>Testing</li></ul>
+            </div>
+            <div class="project-aside metric-aside"><strong>18</strong><span>canonical<br />cost tests</span></div>
+          </article>
+          <article class="project project-creative">
+            <div class="project-number">04</div>
+            <div class="project-body">
+              <div class="project-meta"><span>Creative AI product</span><span>Independent project</span></div>
+              <h3>Album → Bouquet</h3>
+              <p>An image-to-floral-design experience that translates visual rhythm, material, structure, and mood—not just color—into a bouquet that could exist in the real world. The product joins visual understanding, prompt design, generation, and aesthetic QA.</p>
+              <a class="project-link" href="https://github.com/hazezhang/Album-era" target="_blank" rel="noreferrer">View repository <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="bouquet-mark" aria-hidden="true"><span></span><span></span><span></span><i></i></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="research section-grid" id="research">
+        <p class="section-label">03 / Research direction</p>
+        <div class="section-content">
+          <h2>Human judgment is not noise to remove. It is part of the problem.</h2>
+          <p class="lead">My current research centers on how AI can evaluate complex human performance without collapsing it into a single opaque score.</p>
+          <div class="question-grid">
+            <article><span>01</span><h3>Rubric-aligned evaluation</h3><p>Can model outputs map to criteria practitioners already understand and use?</p></article>
+            <article><span>02</span><h3>Quality × timing</h3><p>How should perceived latency combine what was said with when it arrived?</p></article>
+            <article><span>03</span><h3>Diagnostic feedback</h3><p>Can evaluation move beyond ranking toward feedback that helps interpreters improve?</p></article>
+            <article><span>04</span><h3>Reliable supervision</h3><p>How can student annotations and limited professional ratings work together responsibly?</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience section-grid" id="experience">
+        <p class="section-label">04 / Experience</p>
+        <div class="section-content">
+          <h2>Learning across research, engineering, and product.</h2>
+          <div class="timeline">
+            <article><time>2026</time><div><h3>AI Algorithm Intern · Shenzhen</h3><p>Leading applied evaluation work for AI-assisted home-energy decision systems; building reproducible metrics, attribution, and test infrastructure.</p></div></article>
+            <article><time>2024—Now</time><div><h3>Undergraduate Researcher · CUHK-Shenzhen</h3><p>Researching human-centered evaluation for simultaneous interpreting across rubric-aligned quality, perceived latency, weak supervision, and diagnostic feedback.</p></div></article>
+            <article><time>2025</time><div><h3>Stanford Summer Session</h3><p>Expanded my view of data science in an international, interdisciplinary learning environment.</p></div></article>
+            <article><time>2022—2026</time><div><h3>B.Sc. in Data Science and Big Data Technology</h3><p>The Chinese University of Hong Kong, Shenzhen · Dean’s List 2023–2025 · Bowen Scholarship.</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing">
+        <p class="section-label">05 / What connects the work</p>
+        <blockquote>“I like the moment when a vague idea becomes a system someone else can open, challenge, and use.”</blockquote>
+        <p>That instinct takes me from models to interfaces, from scores to explanations, and from a research question to the infrastructure around it.</p>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <div><p class="section-label">06 / Contact</p><h2>Have a question worth<br /><em>building around?</em></h2></div>
+      <a class="footer-email" href="mailto:122090786@link.cuhk.edu.cn">122090786@link.cuhk.edu.cn <span aria-hidden="true">↗</span></a>
+      <div class="footer-meta"><span>Ziyu (Hazel) Zhang · Shenzhen, China</span><a href="https://github.com/hazezhang" target="_blank" rel="noreferrer">GitHub ↗</a><span>© 2026</span></div>
+    </footer>
+  </body>
+</html>
